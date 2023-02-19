@@ -6,10 +6,13 @@ the Reddit API.
 
 ## Setup doctl
 
+Follow the [DigitalOcean installation instructions](https://docs.digitalocean.com/reference/doctl/how-to/install/).
+
+Something like:
+
 ```sh
 doctl auth init --context default
 doctl serverless connect
-doctl serverless deploy test
 ```
 
 ## Deploy Function
